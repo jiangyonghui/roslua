@@ -21,7 +21,7 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 set(CMAKE_SHARED_LIBRARY_PREFIX "")
 set(CMAKE_SHARED_LIBRARY_SUFFIX ".luaso")
 
-include_directories(/usr/include/lua5.1)
+include_directories(/usr/include)
 
 #uncomment if you have defined messages
 #rosbuild_genmsg()
