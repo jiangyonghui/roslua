@@ -1,0 +1,25 @@
+1) Lua
+- downlaod at http://www.lua.org
+- tar zxf lua-5.*.tar.gz
+- cd lua-5.*
+make linux
+make linux test
+make linux install
+
+2) Lua POSIX
+- install luarocks https://luarocks.org/
+- sudo luarocks install luaposix 33.4.0
+
+3) WSAPI & Xavante
+- sudo luarocks install wsapi-xavante
+
+4) Lua XML-RPC
+git clone https://github.com/timn/lua-xmlrpc
+- modify makefile, then
+sudo make install
+
+5) Lua MD5
+sudo luarocks install md5
+
+6) Lua Signal
+sudo luarocks install lua_signal
