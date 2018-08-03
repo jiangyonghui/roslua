@@ -1,4 +1,4 @@
-
+#!/usr/bin/env lua
 ----------------------------------------------------------------------------
 --  publisher.lua - publisher implementation test
 --
